@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometer</title>
+    <script src="Cronometer.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col gap-10 justify-center items-center h-screen bg-indigo-400">
+        <h1 class="uppercase">cronometro</h1>
+        <div class="rounded border-2 border-black p-4 w-1/6 text-center text-3xl">
+        <span class="horas"></span>
+        <span>:</span>
+        <span class="minutos"></span>
+        <span>:</span>
+        <span class="segundos"></span>
+        </div>
+        <div class="flex gap-10">
+            <button class="btn_reset rounded border-2 border-black p-2 bg-red-600 hover:bg-red-400/100 text-white w-16">Reset</button>
+            <button class="btn_play rounded border-2 border-black p-2 bg-green-600 hover:bg-green-400/100 text-white w-16">Play</button>
+            <button class="btn_pause rounded border-2 border-black p-2 bg-blue-600 hover:bg-blue-400/100 text-white w-16">Pause</button>
+        </div>
+    </div>
+</body>
+</html>
