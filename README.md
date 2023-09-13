@@ -5,4 +5,7 @@
 * 03 - Counter
 * 04 - Carrousel
 * 05 - Cronometer
+<<<<<<< HEAD
 * 06 - Countries
+=======
+>>>>>>> 43f5fcefb549c3b7949aba704ab3577bc21530f7
