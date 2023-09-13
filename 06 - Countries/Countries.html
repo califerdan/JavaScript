@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <script src="Countries.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-gray-300 flex flex-col gap-10 justify-center items-center h-screen">
+        <h1 class="uppercase text-3xl text-center">Guess the country</h1>
+        <div class="contenedor-palabra flex gap-6 justify-center">
+        </div>
+        <div class="resultado"></div>
+        <div class="flex gap-10">
+            <button class="btn-rendirse w-24 h-10 bg-red-500 rounded text-white border-2 border-black ">Give up</button>
+            <button class="btn-comprobar w-24 h-10 bg-green-500 rounded border-2 text-white border-black ">Check</button>
+        </div>
+    </div>
+</body>
+</html>
