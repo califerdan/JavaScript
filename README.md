@@ -4,3 +4,4 @@
 * 02 - Conversor
 * 03 - Counter
 * 04 - Carrousel
+* 05 - Cronometer
